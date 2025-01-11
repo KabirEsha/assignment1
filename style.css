@@ -360,7 +360,7 @@ background: rgb(247, 235, 207);
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background-color:rgba(234, 230, 230, 0.888);
-    background-repeat: no-repeat;
+    
     background-position: top left;
     background-size: 60px 60px;
     background-position: 24px 24px;
@@ -375,8 +375,10 @@ background: rgb(247, 235, 207);
     letter-spacing: 0%;
     text-align: left;
     background-color: rgba(248, 240, 240, 0.867);
-    background-image: url("../assignment1/assets/quote-bg.png");
+    background-image: url("assets/quote-bg.png");
+    background-repeat:no-repeat;
     margin-left: 20px;
+
   }
   .quote-author > h5 {
     font-size: 20px;
@@ -412,8 +414,9 @@ background: rgb(247, 235, 207);
   order: 0;
   flex-grow: 0;
   border-radius: 24px;
-  background-color: rgba(232, 223, 223, 0.962);
-  background: url("../assets/satelite.png") no-repeat;
+  background-color: rgb(224, 219, 219);
+  background-image: url("assets/satelite.png");
+  background-repeat: no-repeat;
   }
   
   .future-news-card {
@@ -618,6 +621,7 @@ background: rgb(247, 235, 207);
     font-size: 20px;
     font-weight: 500;
     background-color: white;
+    padding-right: 0px;
   }
   
   .subscribe-input > button{
@@ -632,12 +636,14 @@ background: rgb(247, 235, 207);
     width: 180px;
     height: 60px;
     align-items: center;
+    margin-top: 0px;
   }
   
   .subscribe-input > button:hover{
     background-color: #7cf6d8;
   }
   
+
   footer{
     align-items: center;
     text-align: center;
