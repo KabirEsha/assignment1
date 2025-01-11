@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*font-family: "Fira Sans", serif;*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", serif;
+}
+nav{
+    position: absolute;
+    width: 1600px;
+    height: 100px;
+    left: 0;
+    top: 0;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 24px 160px 24px 160px;
+
+
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin: 10px 10px 10px 10px;
+}
+.nav-title{
+color: rgb(14, 14, 14);
+font-size: 20px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.nav-button{
+
+
+background-color: transparent;
+padding: 15px 30px 15px 30px;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    margin: 0 10px 0 10px;
+color: rgb(0, 106, 80);
+font-size: 18px;
+font-weight: 600;
+letter-spacing: 0%;
+text-align: right;
+    
+}
+.nav-button:hover{
+    background-color: rgb(0, 106, 80);
+    color: white;
+}
+#first{
+    
+ 
+position: static;
+width: 1520px;
+height: 560px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 64;
+padding: 80px 100px 80px 100px;
+
+border-radius: 24px;
+
+background: rgb(198, 228, 214);
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 80px 0px;
+}
+p{
+color: rgb(14, 14, 14);
+font-size: 18px;
+font-weight: 300;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+}
+h1{
+color: rgb(14, 14, 14);
+
+border-radius: 24px;
+
+background: rgb(198, 228, 214);
+
+color: rgb(14, 14, 14);
+font-size: 50px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: left;
+}
+button{
+background-color: transparent;
+padding: 15px 30px 15px 30px;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    margin: 20px 0px 0px 0px;
+
+font-size: 18px;
+font-weight: 600;
+letter-spacing: 0%;
+text-align: right;
+
+color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+
+border-radius: 8px;
+
+background: rgb(0, 106, 80);
+    
+}
+button:hover{
+    background-color: rgb(29, 195, 139);
+    color: white;
+}
+#hero{
+    /* Group 1 */
+position: static;
+width: 474.03px;
+height: 400px;
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 64px;
+}
